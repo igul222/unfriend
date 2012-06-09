@@ -12,7 +12,10 @@ require 'koala'
 # ruby-gmail and koala gems. Run! When prompted, go to the
 # given URL to login with Facebook. When redirected to a 
 # nonexistent page (localhost), copy the code in the URL and 
-# paste it where prompted.
+# paste it where prompted. You'll also need to create an 
+# FBFriends label and retroactively filter all messages that
+# have the words ("you as a friend on Facebook" OR 
+# "you as a friend on Facebook") into that label.
 
 user = 'example@gmail.com'
 pass = 'some_password'
